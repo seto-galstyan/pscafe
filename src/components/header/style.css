@@ -1,0 +1,135 @@
+header {
+  width: 100%;
+  height: 4.5em;
+  background-color: var(--preto);
+  font-size: 1.1em;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+
+header img {
+  width: 100px;
+  height: 40px;
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  margin: 1% 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branco);
+  transition-duration: 0.6s;
+}
+
+a:hover,
+.store:hover,
+.iconHamb:active {
+  color: gray;
+}
+
+i {
+  display: flex;
+}
+
+.storeLove {
+  font-size: 1.3em;
+  cursor: pointer;
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 40%;
+}
+
+.link {
+  color: white;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store {
+  transition-duration: 0.6s;
+  margin-left: 10%;
+}
+
+.heart {
+  transition-duration: 0.6s;
+}
+
+.heart:hover {
+  color: var(--roxo);
+}
+
+.iconHamb {
+  display: none;
+  visibility: hidden;
+}
+
+.divMenu {
+  display: none;
+  visibility: hidden;
+}
+
+@media (max-width: 700px) {
+  ul {
+    display: none;
+    margin-top: 5%;
+  }
+
+  .iconHamb {
+    visibility: visible;
+    display: block;
+    color: var(--branco);
+    cursor: pointer;
+    position: absolute;
+    right: 0%;
+    margin-right: 10%;
+    margin-top: 2%;
+    z-index: 2000;
+  }
+
+  .divMenu {
+    visibility: visible;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    z-index: 101;
+    padding: 200px 0px;
+  }
+
+  .liMenu {
+    display: block;
+  }
+
+  .itensMobile {
+    display: block;
+  }
+
+  .heart,
+  .store {
+    display: none;
+  }
+
+  .heart-2,
+  .store-2 {
+    display: block;
+  }
+}

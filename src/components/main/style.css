@@ -1,0 +1,14 @@
+h3{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-size: 2.5em;
+    color: var(--branco);
+    margin-top: 10%;
+}
+
+@media (max-width: 550px) {
+    h3{
+        font-size: 1.5em;
+    }
+}
+  

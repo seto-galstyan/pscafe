@@ -1,0 +1,21 @@
+.pContact{
+    color: var(--branco);
+    margin-left: 2%;
+    font-size: 1.6rem;
+}
+
+.containerM{
+    display: flex;
+    align-items: center;
+    margin: 3% 0%;
+    margin-left: 5%;
+}
+
+
+@media (max-width: 550px) {
+    .containerM{
+        flex-direction: column-reverse;
+        margin-left: 0%;
+    }
+}
+
