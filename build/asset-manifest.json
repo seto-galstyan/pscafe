@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9a1fc4d.chunk.css",
+    "main.js": "/static/js/main.daf73abf.chunk.js",
+    "main.js.map": "/static/js/main.daf73abf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7aecb4f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7aecb4f7.js.map",
+    "static/css/2.5ca825ff.chunk.css": "/static/css/2.5ca825ff.chunk.css",
+    "static/js/2.19e8d6ae.chunk.js": "/static/js/2.19e8d6ae.chunk.js",
+    "static/js/2.19e8d6ae.chunk.js.map": "/static/js/2.19e8d6ae.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5ca825ff.chunk.css.map": "/static/css/2.5ca825ff.chunk.css.map",
+    "static/css/main.f9a1fc4d.chunk.css.map": "/static/css/main.f9a1fc4d.chunk.css.map",
+    "static/js/2.19e8d6ae.chunk.js.LICENSE.txt": "/static/js/2.19e8d6ae.chunk.js.LICENSE.txt",
+    "static/media/fundo3.e0431a74.mp4": "/static/media/fundo3.e0431a74.mp4",
+    "static/media/logo.c94a9e52.png": "/static/media/logo.c94a9e52.png",
+    "static/media/App.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/verevi.dd4efa08.jpg": "/static/media/verevi.dd4efa08.jpg",
+    "static/media/verevi2.4bfb6da2.jpg": "/static/media/verevi2.4bfb6da2.jpg",
+    "static/media/verevi3.87a008ef.jpg": "/static/media/verevi3.87a008ef.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7aecb4f7.js",
+    "static/css/2.5ca825ff.chunk.css",
+    "static/js/2.19e8d6ae.chunk.js",
+    "static/css/main.f9a1fc4d.chunk.css",
+    "static/js/main.daf73abf.chunk.js"
+  ]
+}
